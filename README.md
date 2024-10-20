@@ -49,9 +49,9 @@ app_key=your_app_key
 ```
 
 OR 
+bash
+ python nutrient.py
 
-```python nutrient.py
-```
 
 By default, the app runs at http://127.0.0.1:5000/.
 
