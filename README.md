@@ -25,8 +25,8 @@ Nutrients Finder is a simple Flask-based web application that allows users to in
 
 ### 1. Clone the repository
 
-git clone
-cd nutrient-finder-flaskapp
+```git clone https://github.com/Shivani-glitch18/nutrient-finder-flaskapp
+cd nutrient-finder-flaskapp```
 
 
 ### 3. Install dependencies
