@@ -24,34 +24,33 @@ Nutrients Finder is a simple Flask-based web application that allows users to in
 ## Setup Instructions
 
 ### 1. Clone the repository
-
-```git clone https://github.com/Shivani-glitch18/nutrient-finder-flaskapp
+```
+git clone https://github.com/Shivani-glitch18/nutrient-finder-flaskapp
 cd nutrient-finder-flaskapp
 ```
 
 ### 3. Install dependencies
-
-```pip install -r requirements.txt
+```
+pip install -r requirements.txt
 ```
 
 ### 4. Set up environment variables
 
 Create a .env file in the project root and add your Edamam API credentials:
 
-
-```app_id=your_app_id
+```
+app_id=your_app_id
 app_key=your_app_key
 ```
 
 ### 5. Run the application
-
-```flask run
 ```
-
+flask run
+```
 OR 
-bash
- python nutrient.py
-
+```
+python nutrient.py
+```
 
 By default, the app runs at http://127.0.0.1:5000/.
 
@@ -64,16 +63,16 @@ Open the browser and navigate to http://127.0.0.1:5000/ to start using the Nutri
 Running the application using Docker, following the steps below:
 
 1. Pulling the Docker image:
-
-```docker pull shivani1820/nut:latest
+```
+   docker pull shivani1820/nut:latest
 ```
 
 **NOTE** - For *building a docker image* from the git repo, use:
- docker build -t <image-name> . 
+``` docker build -t <image-name> . ```
 
 2. Running the Docker container:
-
-```docker run -p 5000:5000 --env-file .env shivani1820/nut
+```
+   docker run -p 5000:5000 --env-file .env shivani1820/nut
 ```
 
 3. The app will now be available at http://localhost:5000/.
@@ -89,3 +88,4 @@ Running the application using Docker, following the steps below:
 ### Nutrient Results
 
 ![Nutrient Results](https://github.com/user-attachments/assets/6af0e0bf-83c4-4eec-9b25-5944d881e03f)
+
